@@ -17,7 +17,10 @@
           </div>
           <div class="form-content">
             <h3>Welcome to JELLY-AID!</h3>
-            <H4> Register and learn because a person who use sign language has a unique perspective on the world, a perspective we should all seek to understand.</h4>
+            <!-- sample 
+            <h4> Register and learn because a person who use sign language has a unique perspective on the world, a perspective we should all seek to understand.</h4>
+          -->
+            <h4><span>Register </span>and learn because a person who use sign language has a unique perspective on the world, a perspective we should all seek to understand.</h4>
             <form action="#">
               <div class="input-field">
                 <input type="text">
@@ -39,11 +42,13 @@
                 <input type="password">
                 <label> Confirm Password</label>
               </div>
-              <button type="submit">Sign Up</button>  
+              <div class="container">
+              <a href="Sign up.html" class="button"> Sign Up </a> 
+            </div>  
             </form>
             <div class="bottom-link">
             Already have an account?
-              <a href="#">Log In</a>
+              <a href="Sign up.html">Log In</a>
             </div>
           </div>
         </div>
