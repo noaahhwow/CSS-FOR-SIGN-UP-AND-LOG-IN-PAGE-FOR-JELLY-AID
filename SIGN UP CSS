@@ -57,6 +57,10 @@ h4 {
     margin-top: -30px;
 }
 
+h4 span {
+    text-decoration: underline;
+}
+
 
 .form-box .form-content {
     width: 100%;
@@ -197,19 +201,22 @@ form .input-conpass label {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-form button {
+.container .button { 
     width: 296px;
-    display: block; /* Make the button a block element */
-    margin-top: 10px;
+    display: block; 
+    margin-top: 5px;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     padding: 14px 0;
     background-color: #1E3274;
     color: white;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    text-decoration: none;
+    text-align: center;
 }
 
 form button:hover {
